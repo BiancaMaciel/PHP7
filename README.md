@@ -65,7 +65,9 @@ Então todos os arquivos que forem criados dentro da pasta /src:/var/www/html do
 2º Passo:
 - obs: os comandos abaixo foram executados em ambiente Windows utilizando [Hyper-V do Windows](https://docs.microsoft.com/pt-br/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v). Terá o mesmo resultado executado nativamente em ambientes MAC ou Linux, porém alterando o endereço do servidor.
 
-- Após adicionado os dois arquivos com o conteúdo correspondente, será necessário rodar o seguinte comando para baixar a imagem que foi definida no arquivo:
+#### Baixar a imagem
+
+> Após adicionado os dois arquivos com o conteúdo correspondente, será necessário rodar o seguinte comando para baixar a imagem que foi definida no arquivo:
 
 ```shell
 
@@ -73,22 +75,26 @@ docker build .
 
 ```
 
-Após concluido o download, basta executar o próximo comando para construir a imagem:
+#### Construir a imagem
+> Após concluido o download, basta executar o próximo comando para construir a imagem:
+
 ```shell
 
 docker-compose up -d
 
 ```
+#### Subir servidor
 
-Para subir o servidor executar o seguinte comando que apresentará a posta local onde subirá a aplicação:
+> Para subir o servidor executar o seguinte comando que apresentará a posta local onde subirá a aplicação:
+
 ```shell
 
 docker-machine ls
 
 ```
 
-### Testando o ambiente
-Para verificar se está tudo ok, crie um arquivo index.php com o seguinte contéudo:
+#### Testando o ambiente
+> Para verificar se está tudo ok, crie um arquivo index.php com o seguinte contéudo:
 
 ```php
 
