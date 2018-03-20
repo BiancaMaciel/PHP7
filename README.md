@@ -27,7 +27,63 @@ EXPOSE 80 80
 Quando o Docker criar a imagem, ele instalará o PHP, o apache embutido e as extensões para PDO e PDO_MYSQL. 
 No arquivo também é configurado a porta 80 em nosso ambiente.
 
+Criar também um arquivo chamado docker-compose.yml com o seguinte contéudo:
 
+```
+version: '2'
+services:
+    db:
+        image: mysql:5.7
+        volumes:
+            - "./.data/db:/var/mysql"
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: mydb
+            MYSQL_USER: root
+            MYSQL_PASSWORD: root
+
+    web:
+        volumes:
+            - "./src:/var/www/html"
+        depends_on:
+            - db
+        image: php:7.1-rc-apache
+        links:
+            - db
+        ports:
+            - "8001:80"
+        restart: always
+
+```
+
+Nele é configurado as informações de conexão com o Banco de Dados associado a imagem criada. 
+Desta forma, quando rodarmos o comando docker compose, já teremos todo ambiente configurado na porta 8001.
+
+Então todos os arquivos que forem criados dentro da pasta /src:/var/www/html do projeto, será também apresentados na porta 8001, no navegador.
+
+2º Passo:
+Após adicionado os dois arquivos com o conteúdo correspondente, será necessário rodar o seguinte comando para baixar a imagem que foi definida no arquivo:
+
+```shell
+
+docker build .
+
+```
+
+Após concluido o download, basta executar o próximo comando:
+```shell
+
+docker-compose up -d
+
+```
+
+Para subir o servidor executar o seguinte comando que apresentará a posta local onde subirá a aplicação:
+```shell
+
+docker-machine ls
+
+```
 
 
 
