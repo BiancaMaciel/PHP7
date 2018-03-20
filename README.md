@@ -73,7 +73,7 @@ docker build .
 
 ```
 
-Após concluido o download, basta executar o próximo comando:
+Após concluido o download, basta executar o próximo comando para construir a imagem:
 ```shell
 
 docker-compose up -d
