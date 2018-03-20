@@ -63,6 +63,8 @@ Desta forma, quando rodarmos o comando docker compose, já teremos todo ambiente
 Então todos os arquivos que forem criados dentro da pasta /src:/var/www/html do projeto, será também apresentados na porta 8001, no navegador.
 
 2º Passo:
+- obs: os comandos abaixo foram executados em ambiente Windows utilizando [Hyper-V do Windows](https://docs.microsoft.com/pt-br/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v). Terá o mesmo resultado executado nativamente em ambientes MAC ou Linux, porém alterando o endereço do servidor.
+
 - Após adicionado os dois arquivos com o conteúdo correspondente, será necessário rodar o seguinte comando para baixar a imagem que foi definida no arquivo:
 
 ```shell
