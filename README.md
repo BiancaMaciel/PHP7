@@ -63,7 +63,7 @@ Desta forma, quando rodarmos o comando docker compose, já teremos todo ambiente
 Então todos os arquivos que forem criados dentro da pasta /src:/var/www/html do projeto, será também apresentados na porta 8001, no navegador.
 
 2º Passo:
-Após adicionado os dois arquivos com o conteúdo correspondente, será necessário rodar o seguinte comando para baixar a imagem que foi definida no arquivo:
+- Após adicionado os dois arquivos com o conteúdo correspondente, será necessário rodar o seguinte comando para baixar a imagem que foi definida no arquivo:
 
 ```shell
 
@@ -84,6 +84,19 @@ Para subir o servidor executar o seguinte comando que apresentará a posta local
 docker-machine ls
 
 ```
+
+### Testando o ambiente
+Para verificar se está tudo ok, crie um arquivo index.php com o seguinte contéudo:
+
+```php
+
+<?php
+    phpinfo();
+?>
+
+```
+
+Quando acessar a url presentada via terminal, será exibido o conteúdo deste arquivo (apenas para teste).
 
 
 
