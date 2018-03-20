@@ -100,5 +100,5 @@ Para verificar se está tudo ok, crie um arquivo index.php com o seguinte conté
 
 Quando acessar a url presentada via terminal, será exibido o conteúdo deste arquivo (apenas para teste).
 
-
+Link de referência: http://www.phprs.com.br/2016/05/criando-um-ambiente-de-desenvolvimento-php-com-docker-compose/.
 
