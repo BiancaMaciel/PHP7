@@ -1,4 +1,4 @@
-# PHP 7
+# PHP 7 :elephant: :computer: 
 
 Este repositório contém anotações referente as mudanças que foram lançadas no [PHP 7](http://php.net).
 
@@ -106,5 +106,5 @@ docker-machine ls
 
 Quando acessar a url presentada via terminal, será exibido o conteúdo deste arquivo (apenas para teste).
 
-Link de referência: http://www.phprs.com.br/2016/05/criando-um-ambiente-de-desenvolvimento-php-com-docker-compose/.
+Link de referência: [AQUIII :santa: ](http://www.phprs.com.br/2016/05/criando-um-ambiente-de-desenvolvimento-php-com-docker-compose/).
 
