@@ -2,12 +2,26 @@
 
 Este repositório contém anotações referente as mudanças que foram lançadas no [PHP 7](http://php.net).
 
+
+
 ## Introdução
+
 Será abordado atualizações feitas na versão 7.1
 Lista de correções que foram realizadas para a nova versão: [Link Correções](http://www.php.net/ChangeLog-7.php#7.1.15).
 
+## Instalação
+
+
+
+# Anotações
+
+
+
 
 ## Docker
+
+> Você não precisará realizar esse passo a passo de instalação do Docker, pois ele já foi feito é apenas a fins de curiosidade e anotação do passo a passo realizado.
+
 Foi utilizado ambiente Docker para o desenvolvimento.
 
 ### Iniciando com o Docker
