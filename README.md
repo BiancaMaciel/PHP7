@@ -19,7 +19,7 @@ Lista de correções que foram realizadas para a nova versão: [Link Correções
 
 Forçando o retorno em métodos ou funções.
 
-> A partir da versão 7.0 já é suportado a escolha do tipo de retorno dos métodos.
+> Apartir da versão 7.0 já é suportado a escolha do tipo de retorno dos métodos.
 
 O exemplo de utilização e anotações está no arquivo null_types.php
 
@@ -27,4 +27,9 @@ obs: a tipagem forçada pode ser opcional, basta utilizar o interrogação a fre
 
 ## Array Destructuring
 
+> Apartir da versão 7 é possível fazer a desconstrução de um array sem utilizar a função list das versões anteriores.
+
+O exemplo de utilização e anotações está no arquivo array_destructuring.php
+
+obs: é possível realizar o mapeamento também com chaves associativas conforme o exemplo do arquivo(array_destructuring.php).
 
