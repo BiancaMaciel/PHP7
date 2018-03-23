@@ -33,3 +33,15 @@ O exemplo de utilização e anotações está no arquivo array_destructuring.php
 
 obs: é possível realizar o mapeamento também com chaves associativas conforme o exemplo do arquivo(array_destructuring.php).
 
+## Funções aritiméticas em uma string
+
+> Apartir da versão 7 é apresentado um Notice ao tentar realizar operações aritiméticas com strings.
+
+O exemplo de utilização e anotações está no arquivo strings.php
+
+obs: ao tentar realizar esse tipo de operação, os números são calculados normalmente, porém você será notificado pelo PHP com um Notice, alertando que não é uma boa prática utilizar desta forma.
+
+
+
+
+
