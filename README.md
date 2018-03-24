@@ -48,5 +48,13 @@ O exemplo de utilização e anotações está no arquivo strpos.php
 
 obs: nas versões anteriores do PHP esse tipo de recurso ocasionava a um erro, porém agora é possível utiliza-la sem grandes problemas.
 
+## Retorno Void e acesso a Constantes
+
+> Apartir da versão 7 está disponível apresentação de erro ao tentar retornar algo em unções do tipo void. E também está disponível adicionar visibilidade em constantes que antes era acessível apenas para atributos.
+
+O exemplo de utilização e anotações está no arquivo void_constant.php
+
+obs: Ao tentar retornar qualquer coisa em métodos void que não seja void, é apresentado um erro no PHP.
+
 
 
