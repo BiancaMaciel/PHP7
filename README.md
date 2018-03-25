@@ -56,5 +56,15 @@ O exemplo de utilização e anotações está no arquivo void_constant.php
 
 obs: Ao tentar retornar qualquer coisa em métodos void que não seja void, é apresentado um erro no PHP.
 
+## Multiplas exceptions
+
+>  Apartir da versão 7 está disponível a utilização de pipes(|) para reproduzir multiplas Exceptions, caso seja o mesmo contéudo a ser executado, corrigindo a duplicidade de código.
+
+O exemplo de utilização e anotações está no arquivo exception.php
+
+obs: para blocos de códigos iguais em ambas Exceptions é necessário utilizar o caractere pipe (|) para separação das Execptions.
+Ex. (MyE  | MyE2 $e)
+
+
 
 
